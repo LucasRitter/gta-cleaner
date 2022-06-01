@@ -23,6 +23,7 @@ export const knownFiles = [
     'nvpmapi.core.win64.dll',
     'playgtav.exe',
     'version.txt',
+    'steam_api64.dll',
     'x64a.rpf',
     'x64b.rpf',
     'x64c.rpf',
