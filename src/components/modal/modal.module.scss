@@ -1,0 +1,29 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: var(--modal-overlay-background);
+  opacity: 0;
+
+  transition: opacity 0.3s ease-in-out;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+
+  backdrop-filter: blur(24px);
+}
+
+.card {
+  width: fit-content;
+  height: fit-content;
+
+  padding: 16px;
+  border-radius: 10px;
+  background-color: var(--modal-card-background);
+
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}

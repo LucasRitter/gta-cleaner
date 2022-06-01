@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  height: 20px;
+  width: 100%;
+
+  background: var(--background);
+  border-radius: 10px;
+}
+
+.percentageContainer {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  height: 20px;
+
+  color: var(--foreground);
+}
+
+.totalContainer {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  height: 20px;
+
+  color: var(--foreground-dim);
+}
+
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 0;
+  background: var(--accent);
+  border-radius: 10px;
+
+  color: black !important;
+}

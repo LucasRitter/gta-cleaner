@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Basier';
+    src: url('/fonts/basiercircle-bold-webfont.woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Basier';
+    src: url('/fonts/basiercircle-medium-webfont.woff2');
+    font-weight: 700;
+}
+
+:root {
+    --background: #fff;
+    --background-dim: #fafafa;
+    --foreground: #000;
+    --foreground-dim: #aaa;
+
+    --accent: #056C41;
+    --accent-very-dim: #EDFFF7;
+
+    --modal-overlay-background: rgba(0, 0, 0, 0.2);
+    --modal-card-background: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #121212;
+        --background-dim: #171717;
+        --foreground: #fff;
+        --foreground-dim: #666;
+    
+        --accent: rgba(36, 216, 141, 1);
+        --accent-very-dim: rgba(5, 108, 65, 0.2);
+
+        --modal-overlay-background: rgba(0, 0, 0, 0.4);
+        --modal-card-background: #1c1c1c;
+    }
+}
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+
+    font-family: 'Basier', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    all: unset;
+    text-decoration: underline;
+    color: var(--accent);
+}

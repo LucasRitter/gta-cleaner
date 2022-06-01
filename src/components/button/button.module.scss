@@ -1,0 +1,32 @@
+.button {
+    all: unset;
+
+    display: flex;
+    place-items: center;
+    flex-direction: row;
+    gap: 12px;
+
+    border-radius: 8px;
+    background: var(--accent-very-dim);
+    color: var(--accent);
+
+    height: 56px;
+    padding: 0 36px;
+
+    transition: transform 0.2s ease-in-out;
+
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+
+    &:active {
+        transform: translateY(0px);
+    }
+}
+
+.secondary {
+    background: var(--background-dim);
+    color: var(--foreground-dim);
+}
