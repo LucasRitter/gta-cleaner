@@ -55,4 +55,5 @@ a {
     all: unset;
     text-decoration: underline;
     color: var(--accent);
+    cursor: pointer;
 }
