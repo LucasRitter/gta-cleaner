@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Basier';
-    src: url('/fonts/basiercircle-bold-webfont.woff2');
-    font-weight: 700;
+    src: url('/fonts/basiercircle-medium-webfont.woff2');
+    font-weight: 500;
 }
 
 @font-face {
     font-family: 'Basier';
-    src: url('/fonts/basiercircle-medium-webfont.woff2');
+    src: url('/fonts/basiercircle-bold-webfont.woff2');
     font-weight: 700;
 }
 
